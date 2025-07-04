@@ -1,3 +1,82 @@
-p{
-    background-color: blueviolet;
+*{
+    margin: 0;padding: 0;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+header{
+  background-image: url(https://t4.ftcdn.net/jpg/02/92/20/37/360_F_292203735_CSsyqyS6A4Z9Czd4Msf7qZEhoxjpzZl1.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100px;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-right: 60px;
+    min-height: 400px;
+}
+
+li{
+    display: inline-block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 16px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+    font-size: 20px;
+}
+ul li a:hover{
+    background-color: black;
+}
+ul li.active a{background-color: black;
+color-scheme: white;}
+
+.logo{
+     position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px; /* Adjust as needed */
+    margin: 0;
+}
+ .main{max-width: 1000px;
+    margin: auto;
+} 
+
+.titel {
+  color: rgb(223, 216, 207);
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+}
+ .button{
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  
+ }
+
+ .btn{
+    border: 1px solid white;
+    padding: 5px 20px;
+    color: white;
+    transition: 0.5 ease;
+    text-decoration: none;
+    font-size: 18px;
+ }
+
+ .btn:hover{
+    background-color: black;
+ }
+ 
+.submanu{
+    display: none;
+}
+
